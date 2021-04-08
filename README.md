@@ -23,9 +23,11 @@ We have preset some commands for you, when you select a file to execute the `Run
 | command-runner.run-command        | DWT_ENV=local npx dwt %FILE_PATH% |
 | command-runner.after-run-command  | ls                                |
 
+![demo](./public/configuration.png)
+
 # Thanks
 
-<b>Tencent Alloy Team</b>
+<b>❀Tencent Alloy Team</b>
 
 <!-- <b><details><summary>Tencent Alloy Team</summary></b>
 

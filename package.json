@@ -2,7 +2,7 @@
 	"name": "command-runner",
 	"displayName": "Command Runner",
 	"description": "💻A VSCode extension that simply obtains the file path and executes the corresponding command.",
-	"version": "0.0.3",
+	"version": "0.0.5",
 	"engines": {
 		"vscode": "^1.46.0"
 	},
