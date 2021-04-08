@@ -8,7 +8,7 @@ class CommandRunner {
 	}
 	public async runTerminalCommand(command: string) {
 		if (!this.terminal) {
-			this.terminal = vscode.window.createTerminal('dwt');
+			this.terminal = vscode.window.createTerminal('Command Runner');
 		}
 		this.terminal.show();
 		await vscode.commands.executeCommand('workbench.action.terminal.clear');
@@ -27,7 +27,7 @@ class CommandRunner {
 }
 
 export function activate(context: vscode.ExtensionContext) {
-	console.log('Congratulations, your extension "dwt-runner" is now active!');
+	console.log('Congratulations, your extension "command-runner" is now active!');
 	const commandRunner = new CommandRunner();
 	let commandRunnerConfig = vscode.workspace.getConfiguration("command-runner");
 	// 预执行的命令
