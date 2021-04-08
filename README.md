@@ -25,12 +25,13 @@ We have preset some commands for you, when you select a file to execute the `Run
 
 # Thanks
 
-<b><details><summary>Tencent Alloy Team</summary></b>
+<b>Tencent Alloy Team</b>
+
+<!-- <b><details><summary>Tencent Alloy Team</summary></b>
 
 | [<img src="https://avatars1.githubusercontent.com/u/17243165?s=460&v=4" width="60px;"/><br /><sub>Eno Yao</sub>](https://github.com/Wscats) |
 | ------------------------------------------------------------------------------------------------------------------------------------------- |
-
-</details>
+</details> -->
 
 If the extension can help you, please enter the [Rating & Review](https://marketplace.visualstudio.com/items?itemName=Wscats.command-runner&ssr=false#review-details) link to give me a five-star praise.
 
