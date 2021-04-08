@@ -2,7 +2,7 @@
 	"name": "command-runner",
 	"displayName": "Command Runner",
 	"description": "💻A VSCode extension that simply obtains the file path and executes the corresponding command.",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"engines": {
 		"vscode": "^1.46.0"
 	},
@@ -80,6 +80,11 @@
 			]
 		}
 	},
+	"keywords": [
+		"dwt",
+		"command",
+		"runner"
+	],
 	"scripts": {
 		"build": "vsce package",
 		"vscode:prepublish": "npm run compile",
