@@ -7,6 +7,8 @@
 
 A VSCode extension that simply obtains the file path and executes the corresponding command.
 
+![demo](./public/menu.png)
+
 # How To Use
 
 Click the file directory, select the file, right click the mouse to open the menu bar and select the `Run Command` option to run the preset command.
