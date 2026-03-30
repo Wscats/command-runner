@@ -4,7 +4,8 @@
   "description": "💻A VSCode extension that simply obtains the file path and executes the corresponding command.",
   "version": "0.0.6",
   "engines": {
-    "vscode": "^1.46.0"
+    "vscode": "^1.46.0",
+    "node": ">=18.0.0"
   },
   "publisher": "Wscats",
   "repository": {
@@ -93,7 +94,10 @@
     "watch": "tsc -watch -p ./",
     "pretest": "npm run compile && npm run lint",
     "test": "node ./out/test/runTest.js",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "lint:check": "eslint . --ext .ts,.tsx,.js,.jsx",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "devDependencies": {
     "@types/vscode": "^1.46.0",
@@ -107,5 +111,8 @@
     "mocha": "^8.1.3",
     "typescript": "^4.0.2",
     "vscode-test": "^1.4.0"
+  },
+  "bugs": {
+    "url": "https://github.com/wscats/command-runner/issues"
   }
 }
